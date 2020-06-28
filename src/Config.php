@@ -6,12 +6,12 @@ use PhpCsFixer\Config as BaseConfig;
 
 class Config extends BaseConfig
 {
-    public function __construct($name = 'default')
+    public function __construct($name = 'betasavvy')
     {
         parent::__construct($name);
         $this->setRiskyAllowed(true);
-//        $this->setIndent('\t');
-        $this->setLineEnding('\n');
+//        $this->setIndent("\t");
+        $this->setLineEnding("\n");
     }
 
     public function getRules(): array
