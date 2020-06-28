@@ -6,7 +6,7 @@ use PhpCsFixer\Config as BaseConfig;
 
 class Config extends BaseConfig
 {
-    public function __construct($name = 'betasavvy')
+    public function __construct($name = 'default')
     {
         parent::__construct($name);
         $this->setRiskyAllowed(true);
