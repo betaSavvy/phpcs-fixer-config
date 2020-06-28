@@ -1,0 +1,15 @@
+{
+  "name": "betasavvy/phpcs-fixer-config",
+  "type": "library",
+  "description": "Shared PHP coding standards rules for PHP-CS-Fixer",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.3",
+    "friendsofphp/php-cs-fixer": "^2.16"
+  },
+  "autoload": {
+    "psr-4": {
+      "BetaSavvy\\Fixer\\": "src/"
+    }
+  }
+}
