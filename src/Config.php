@@ -10,7 +10,7 @@ class Config extends BaseConfig
     {
         parent::__construct($name);
         $this->setRiskyAllowed(true);
-        $this->setIndent('\t');
+//        $this->setIndent('\t');
         $this->setLineEnding('\n');
     }
 
