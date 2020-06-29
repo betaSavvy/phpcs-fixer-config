@@ -30,11 +30,13 @@ Create a configuration file `.php_cs` in the root of your project.
 
 $config = new BetaSavvy\Fixer\Config();
 $config->getFinder()
-//        ->exclude(['/folder-to-exclude'])
+//        ->exclude(['fixture'])
         ->in([
-            __DIR__ . '/folder-1',
-            __DIR__ . '/folder-2',
-            __DIR__ . '/folder-3',
+            __DIR__ . '/app',
+            __DIR__ . '/config',
+            __DIR__ . '/database',
+            __DIR__ . '/routes',
+            __DIR__ . '/tests',
         ]);
 
 return $config;
