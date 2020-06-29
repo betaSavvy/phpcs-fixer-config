@@ -19,7 +19,7 @@ class Config extends BaseConfig
         return [
             '@PSR2'        => true,
             'array_syntax' => [
-                'syntax' => 'long',
+                'syntax' => 'short',
             ],
         ];
     }
