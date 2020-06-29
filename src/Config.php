@@ -21,7 +21,7 @@ class Config extends BaseConfig
             'array_syntax'    => [
                 'syntax' => 'short',
             ],
-            'no_used_imports' => true,
+            'no_unused_imports' => true,
         ];
     }
 }
