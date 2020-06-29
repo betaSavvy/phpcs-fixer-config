@@ -17,10 +17,11 @@ class Config extends BaseConfig
     public function getRules(): array
     {
         return [
-            '@PSR2'        => true,
-            'array_syntax' => [
+            '@PSR2'           => true,
+            'array_syntax'    => [
                 'syntax' => 'short',
             ],
+            'no_used_imports' => true,
         ];
     }
 }
